@@ -13,8 +13,7 @@ def login():
     card_number = request.json.get("card_number")
     name = request.json.get("name")
     expiry = request.json.get("expiry")
-    cvv = request.get("cvv")
-
+    cvv = request.json.get("cvv")
     #card_number = request.json.get("card_number")
     #name = request.json.get("name")
    # expiry = request.json.get("expiry")
